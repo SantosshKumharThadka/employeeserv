@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "7cc659cc-6269-4b72-be11-a115970a0275",
+		"name": "employee-CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "employee data"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/bfs/employees",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"first_name\": \"First name\",\r\n\t\"id\": 2,\r\n\t\"last_name\": \"Test Last Name\",\r\n\t\"dateOfBirth\": \"2020-12-12\",\r\n\t\"address\": {\r\n\t\t\"line1\": \"123 street \",\r\n\t\t\"line2\": \"456 avenue\",\r\n\t\t\"city\": \"Pawnee\",\r\n\t\t\"state\": \"IN\",\r\n\t\t\"country\": \"USA\",\r\n\t\t\"zip_code\": 645699\r\n\r\n\t}\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/bfs/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"bfs",
+						"employees"
+					]
+				},
+				"description": "create employee if employee not already exist"
+			},
+			"response": []
+		}
+	]
+}
