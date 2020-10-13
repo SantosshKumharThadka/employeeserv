@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # employeeserv
 
 ## Application Overview
@@ -36,6 +36,6 @@ We would like you to enhance the existing project and see you complete the follo
 
 ## Assignment submission
 Thank you very much for your time to take this test. Please upload this complete solution in Github and send us the link to `bfs-sor-interview@paypal.com`.
-=======
+
 # employeeserv
->>>>>>> 012af7d16155b94be5eb7f5684ed4380e489d326
+
